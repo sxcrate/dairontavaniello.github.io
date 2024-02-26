@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Confronto Linguaggi e Linguaggio HTML</title>
+</head>
+<body>
+
+<h1>Linguaggi di Programmazione e Linguaggio HTML</h1>
+
+<h2>1. Linguaggio Assembly</h2>
+<p>Il linguaggio assembly è un linguaggio a basso livello che utilizza mnemonici per rappresentare le istruzioni eseguite direttamente dalla CPU.</p>
+
+<img src="https://www.andreaminini.com/data/andreaminini/come-creare-file-assembler-8088-in-windows.jpg" alt="Immagine di esempio">
+
+<h2>2. Linguaggio Macchina</h2>
+<p>Il linguaggio macchina è il linguaggio binario eseguito direttamente dalla CPU, costituito da sequenze di 0 e 1 che rappresentano le istruzioni di base.</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Apple_II_Monitor.png" alt="Immagine di esempio">
+
+<h2>3. Assembler</h2>
+<p>L'assembler è un programma che traduce il linguaggio assembly in linguaggio macchina, facilitando la programmazione a basso livello.</p>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUGo1CEyT2wYfroBo4rkGq9iIEK_L2UIXKrQ&usqp=CAU" alt="Immagine di esempio">
+
+<h2>4. Linguaggio di Programmazione ad Alto Livello</h2>
+<p>Un linguaggio di programmazione ad alto livello è un linguaggio più vicino all'inglese, facilitando la scrittura del codice. Esempi includono C++, Java, Python.</p>
+
+<img src="https://blog.informaticalab.com/wp-content/uploads/2013/02/Programming-languages-used-in-most-famous-websites.jpg" alt="Immagine di esempio">
+
+<h2>5. Linguaggio HTML</h2>
+<p>HTML (HyperText Markup Language) è un linguaggio di markup utilizzato per la creazione di pagine web. È un linguaggio di programmazione ad alto livello specializzato nella strutturazione dei contenuti web.</p>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1IiMo7POvHQHoXJCcBgeI8sYQlswntiOTO7GeBwvkKTIImD5skcGNrdQDGlTSkJFUivE&usqp=CAU" alt="Immagine di esempio">
+
+<h2>Confronto</h2>
+
+<table border="1">
+    <tr>
+        <th>Linguaggio</th>
+        <th>Descrizione</th>
+    </tr>
+    <tr>
+        <td>Assembly</td>
+        <td>Linguaggio mnemonico a basso livello.</td>
+    </tr>
+    <tr>
+        <td>Linguaggio Macchina</td>
+        <td>Linguaggio binario eseguito direttamente dalla CPU.</td>
+    </tr>
+    <tr>
+        <td>Assembler</td>
+        <td>Traduce il linguaggio assembly in linguaggio macchina.</td>
+    </tr>
+    <tr>
+        <td>Linguaggio ad Alto Livello</td>
+        <td>Linguaggio più vicino all'inglese per facilitare la scrittura del codice.</td>
+    </tr>
+    <tr>
+        <td>HTML</td>
+        <td>Linguaggio di markup per la creazione di pagine web.</td>
+    </tr>
+</table>
+
+<h2>Risorse Aggiuntive</h2>
+<ul>
+    <li><a href="https://it.wikipedia.org/wiki/Linguaggio_assembly">Linguaggio Assembly - Wikipedia</a></li>
+</ul>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/200px-Wikipedia-logo-v2.svg.png" alt="wikipedia">
+
+</body>
+</html>
