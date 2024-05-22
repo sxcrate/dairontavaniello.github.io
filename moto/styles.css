@@ -4,6 +4,9 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -32,9 +35,36 @@ nav ul li a {
 
 main {
     padding: 1em;
+    flex: 1;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.image-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    text-align: center;
     margin: 1em;
-    background-color: white;
+}
+
+.image-container img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
     border-radius: 8px;
+}
+
+.image-container p {
+    margin-top: 0.5em;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 footer {
@@ -42,7 +72,4 @@ footer {
     padding: 1em 0;
     background-color: #444;
     color: white;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
 }
