@@ -67,6 +67,10 @@ section {
     font-size: 1.2em;
 }
 
+.catalogo h2 p {
+    text-align: center;
+}
+
 footer {
     text-align: center;
     padding: 1em 0;
