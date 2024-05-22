@@ -12,8 +12,8 @@ body .tema-chiaro{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #212121;
-    color: #FFFFFF;
+    background-color: #ffffff;
+    color: #212121;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
