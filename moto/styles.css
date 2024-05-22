@@ -71,6 +71,16 @@ section {
     text-align: center;
 }
 
+
+.bike-image {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1em;
+    border-radius: 8px;
+}
+
 footer {
     text-align: center;
     padding: 1em 0;
