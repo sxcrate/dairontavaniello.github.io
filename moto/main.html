@@ -46,39 +46,20 @@
         <p>&copy; 2024 Motard Roma</p>
     </footer>
         <script>
-        // Funzione per cambiare il tema
         function toggleTheme() {
-            const body = document.body;
-            const themeStyle = document.getElementById('theme-style');
-            if (body.classList.contains('dark-theme')) {
-                // Cambia al tema chiaro
-                body.classList.remove('dark-theme');
-                themeStyle.innerHTML = `
-                    /* Stili per il tema predefinito (bianco) */
-                    body {
-                        background-color: #ffffff;
-                        color: #000000;
-                    }
-                `;
-                // Cambia il testo del pulsante
-                this.textContent = "Cambia tema";
-            } else {
-                // Cambia al tema scuro
-                body.classList.add('dark-theme');
-                themeStyle.innerHTML = `
-                    /* Stili per il tema scuro */
-                    body {
-                        background-color: #000000;
-                        color: #ffffff;
-                    }
-                `;
-                // Cambia il testo del pulsante
-                this.textContent = "Cambia tema";
-            }
-        }
-
-        // Aggiunge un evento di clic al pulsante per cambiare il tema
-        document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
+    const body = document.getElementById('body');
+    const themeStyle = document.getElementById('theme-style');
+    if (body.classList.contains('dark-theme')) {
+        // Cambia al tema scuro
+        body.classList.remove('dark-theme');
+        themeStyle.href = "style.css";
+    } else {
+        // Cambia al tema bianco
+        body.classList.add('dark-theme');
+        themeStyle.href = "temachiaro.css";
+    }
+}
+//document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
     </script>
 </body>
 </html>
