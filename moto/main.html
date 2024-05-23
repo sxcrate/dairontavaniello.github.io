@@ -4,12 +4,18 @@
     <title>Storia dei Motard</title>
     <link rel="stylesheet" href="styles.css" id="theme-style">
 </head>
-<body>
+<body class="light-theme">
     <header>
         <h1>RM Racing</h1>
         <button id="theme-toggle" class="toggle-button">Cambia tema</button>
     </header>
     <main>
+        <div class="toggle-container">
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider round"></span>
+            </label>
+        </div>
         <section class="catologo">
             <h2>Catalogo</h2>
             <p>Qui potete visualizzare i prodotti con tutte le caratteristiche</p>
@@ -44,5 +50,6 @@
     <footer>
         <p>&copy; 2024 Motard Roma</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
