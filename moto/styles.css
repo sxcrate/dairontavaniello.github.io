@@ -22,6 +22,18 @@ body.dark-theme {
     flex-direction: column;
     min-height: 100vh;
 }
+.icon-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.circular-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 .toggle-container {
     position: absolute;
     top: 10px;
