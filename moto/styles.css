@@ -60,7 +60,7 @@ body.dark-theme {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: black;
     transition: 0.4s;
     border-radius: 50%;
 }
@@ -75,7 +75,7 @@ input:checked + .slider:before {
 
 
 header {
-    background-color: #ffffff;
+    background-color: #444;
     color: #FFFFFF;
     text-align: center;
     padding: 1em 0;
