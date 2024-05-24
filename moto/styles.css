@@ -150,6 +150,9 @@ section {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.image-links:hover {
+            transform: scale(1.05);
+        }
 
 .image-container {
     text-align: center;
