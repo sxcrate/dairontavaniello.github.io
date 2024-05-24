@@ -154,10 +154,10 @@ section {
 .image-container {
     text-align: center;
     margin: 1em;
+    transition: transform 0.3s ease;
 }
 .image-container:hover {
     transform: scale(1.05);
-    transition: transform 0.3s, color 0.3s;
 }
 
 .image-container img {
